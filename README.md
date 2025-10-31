@@ -2,8 +2,6 @@
 
 A browser extension that pastes clipboard content with realistic human-like typing speed to bypass anti-paste restrictions on websites.
 
-![Demo](screenshots/demo.gif)
-
 ## Features
 
 - 🎯 Paste into any input field, textarea, or contenteditable element
@@ -19,12 +17,6 @@ A browser extension that pastes clipboard content with realistic human-like typi
 2. Open Firefox and navigate to `about:addons`
 3. Click the gear icon and select "Install Add-on From File"
 4. Select the downloaded `.xpi` file
-
-### Chrome/Edge (Developer Mode)
-1. Download and extract the latest release
-2. Open Chrome/Edge and navigate to `chrome://extensions/` or `edge://extensions/`
-3. Enable "Developer mode"
-4. Click "Load unpacked" and select the `src` folder
 
 ## Usage
 
@@ -67,7 +59,7 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 ## Credits
 
-Icons made by [Freepik](https://www.freepik.com) from [Flaticon](https://www.flaticon.com/)
+Icons made by [Freepik](https://www.freepik.com) from [Flaticon](https://www.flaticon.com/) (modified)
 
 ## Changelog
 

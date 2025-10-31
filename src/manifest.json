@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "2Human2Paste",
+  "version": "1.0",
+  "description": "Paste like a human by simulating real typing speed.",
+  "permissions": ["contextMenus", "activeTab", "clipboardRead", "tabs" ,"<all_urls>"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+    "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "96": "icons/icon96.png",
+    "128": "icons/icon128.png"
+  }, 
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+    },
+    "default_title":"2Human2Paste"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}

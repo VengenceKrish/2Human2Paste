@@ -1,0 +1,10 @@
+{
+  "2Human2Paste": {
+    "message": "2Human2Paste",
+    "description": "Name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Paste like a human by simulating real typing speed.",
+    "description": "Description of the extension"
+  }
+}
